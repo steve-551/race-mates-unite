@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import GradientButton from '@/components/ui/GradientButton';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Heart, Users, Calendar } from 'lucide-react';
 
 const LandingPage: React.FC = () => {
   return (

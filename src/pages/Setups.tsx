@@ -1,4 +1,3 @@
-
 import React from 'react';
 import MainLayout from '@/components/layout/MainLayout';
 import PageHeader from '@/components/ui/PageHeader';
@@ -6,7 +5,7 @@ import GradientButton from '@/components/ui/GradientButton';
 import RacingCard from '@/components/ui/RacingCard';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Plus, FileText, Download, MapPin, Search, Users } from 'lucide-react';
+import { Plus, FileText, Download, MapPin, Search, Users, User } from 'lucide-react';
 
 const Setups: React.FC = () => {
   return (

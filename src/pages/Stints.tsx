@@ -1,4 +1,3 @@
-
 import React from 'react';
 import MainLayout from '@/components/layout/MainLayout';
 import PageHeader from '@/components/ui/PageHeader';
@@ -53,9 +52,9 @@ const Stints: React.FC = () => {
                 <Edit className="h-4 w-4 mr-1" />
                 Modify
               </Button>
-              <Button variant="outline" size="sm" className="text-racing-red">
+              <GradientButton size="sm">
                 Can't Drive
-              </Button>
+              </GradientButton>
             </div>
           </div>
         </RacingCard>

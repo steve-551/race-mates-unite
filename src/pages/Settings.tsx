@@ -1,4 +1,3 @@
-
 import React from 'react';
 import MainLayout from '@/components/layout/MainLayout';
 import PageHeader from '@/components/ui/PageHeader';
@@ -9,7 +8,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Switch } from '@/components/ui/switch';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { User, Bell, Shield, LogOut } from 'lucide-react';
+import { User, Bell, Shield, LogOut, Heart, Calendar, Users, MessageSquare, Clock } from 'lucide-react';
 
 const Settings: React.FC = () => {
   return (
